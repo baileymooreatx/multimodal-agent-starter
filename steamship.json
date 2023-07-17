@@ -1,7 +1,7 @@
 {
 	"type": "package",
-	"handle": "",
-	"version": "",
+	"handle": "chengyu-bot",
+	"version": "0.0.1-rc.1",
 	"description": "",
 	"author": "",
 	"entrypoint": "Unused",
@@ -13,7 +13,13 @@
 			"examples"
 		]
 	},
-	"configTemplate": {},
+	"configTemplate": {
+		"telegram_token": {
+			"type": "string",
+			"description": "The secret token for your Telegram bot",
+			"default": ""
+		}
+	},
 	"steamshipRegistry": {
 		"tagline": "",
 		"tagline2": null,
@@ -29,7 +35,7 @@
 		"authorTwitter": null,
 		"authorUrl": null,
 		"tags": [
-			"MultiModalAgentStarter"
+			"Harvard"
 		]
 	}
 }
