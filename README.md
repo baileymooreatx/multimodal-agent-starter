@@ -19,11 +19,18 @@ python3.8 -m pip install -r requirements.txt
 ## Running your agent
 
 [A full guide to running is here](https://steamship.com/learn/agent-guidebook/use/use-on-localhost).
-
+Get your [API Key](https://www.steamship.com/account/api).
 With the proper Python environment set up and your `STEAMSHIP_API_KEY` environment variable set, just run:
 
+### Set environment variables
 ```bash
-PYTHONPATH=src python3.8 src/api.py
+STEAMSHIP_API_KEY=<API Key>
+PYTHONPATH='src python3.8 src/api.py'
+```
+
+### Run the agent
+```
+ship run local
 ```
 
 ## Modifying your agent
