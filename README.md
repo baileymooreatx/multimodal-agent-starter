@@ -2,7 +2,23 @@
 
 Create a cloud-hosted LLM Agent with custom personality, multi-modal tools, and memory.
 
-This repository is designed to pair with [this Agent Building Guidebook](https://steamship.com/learn/agent-guidebook)
+This repository is designed to pair with this [Agent Building Guidebook](https://steamship.com/learn/agent-guidebook)
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Getting Started](#getting-started)
+- [Running your agent](#running-your-agent)
+  - [Set environment variables](#set-environment-variables)
+  - [Run the agent](#run-the-agent)
+- [Modifying your agent](#modifying-your-agent)
+- [Deploying your agent](#deploying-your-agent)
+- [What tools can I use with my agent?](#what-tools-can-i-use-with-my-agent)
+- [What mixins can I use with my agent?](#what-mixins-can-i-use-with-my-agent)
+- [Documentation](#documentation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Getting Started
 
@@ -105,3 +121,11 @@ Several mixins are provided out of the box in the Steamship SDK:
   * [Telegram](https://github.com/steamship-core/python-client/blob/main/src/steamship/agents/mixins/transports/telegram.py) - for communicating with your agent in Telegram
 * Data Loading
   * [Indexer Pipeline](https://github.com/steamship-core/python-client/blob/main/src/steamship/invocable/mixins/indexer_pipeline_mixin.py) - For loading documents into your agent's question-answer ability
+
+## Documentation  
+CS50 Tech Talk [GPT-4 - How does it work, and how do I build apps with it?](https://www.youtube.com/watch?v=vw-KWfKwvTQ) 
+on YouTube  
+[Steamship](https://www.steamship.com/)  
+[OpenAI API](https://platform.openai.com/docs/introduction)  
+This repository was forked from source repository 
+[steamship-core/multimodal-agent-starter](https://github.com/steamship-core/multimodal-agent-starter).  
