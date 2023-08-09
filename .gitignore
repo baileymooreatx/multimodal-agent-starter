@@ -1,7 +1,15 @@
-/build/
-/.idea/
-/logs/
-/.venv/
-/venv/
-__pycache__
+# Python
 *.pyc
+__pycache__
+
+# IDE
+/.idea/
+.vscode/
+
+# Virtual environment
+.venv/
+venv/
+
+# Local artifacts
+build/
+logs/
